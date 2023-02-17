@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: 'Alexandria', sans-serif;
+}
+
+body {
+  background: url(../imgs/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+img {
+  width: 70px;
+  ;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: solid 2px;
+}
+
+.box_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ;
+  height: 40%;
+  flex-flow: column;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box_cont {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.line {
+  background: #fff;
+  width: 80%;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+}
+.sh{
+  width :30%;
+  display: flex;
+  justify-content: space-between;
+  margin-top :20px ;
+  
+}
+i{
+  font-size :18px;
+}
+a{
+  color: #fff;
+}
+
+
+.box {
+  width: 250px;
+  height: 350px;
+  padding-top: 20px ;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  height: 400px;
+  width: 300px;
+  color: white;
+}
